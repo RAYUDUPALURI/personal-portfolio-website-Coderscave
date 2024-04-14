@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+            </ul>
+        </nav>
+    </header>
+    <title>Profile Photo</title>
+</head>
+<body>
+<h1>Profile Photo</h1>
+<button onclick="viewProfilePhoto()">View My Profile Photo</button>
+<div id="profilePhoto"></div>
+<form action="#" enctype="multipart/form-data">
+  <input type="file" id="uploadInput" accept="image/*">
+  <button type="button" onclick="uploadPhoto()">Upload Photo</button>
+</form>
+
+<script>
+function viewProfilePhoto() {
+  document.getElementById('profilePhoto').innerHTML = '<img src="profile-photo.jpg" alt="Profile Photo" style="max-width: 300px;">';
+}
+
+function uploadPhoto() {
+  var fileInput = document.getElementById('uploadInput');
+  var file = fileInput.files[0];
+  
+  if (file) {
+    var reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = function() {
+      var uploadedPhoto = '<img src="' + reader.result + '" alt="Uploaded Photo" style="max-width: 300px;">';
+      document.getElementById('profilePhoto').innerHTML = uploadedPhoto;
+    }
+  } else {
+    alert('Please select a file.');
+  }
+}
+</script>
+
+</body>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write about your background, education, and professional experience here.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Add your skills,and professional experience here.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Insert your resume content here .</p>
+        <a href="#">Resume PDF</a>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of the project.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of the project.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+    <section id="experiences">
+        <h2>Experiences</h2>
+        <p>Insert your experiences content here or provide a downloadable link to your resume PDF.</p>
+        <a href="#">View experiences</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me using the form below.</p>
+        <form action="submit_contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="https://linkedin.com/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
