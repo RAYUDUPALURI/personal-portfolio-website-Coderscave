@@ -5,8 +5,10 @@ the intern's skills, projects, and experiences. The goal is to have a clean, vis
 appealing, and responsive website that provides an overview of the intern's
 capabilities and achievements.
 
+![Screenshot 2024-04-14 165921](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/b849665e-1df7-438e-9483-4890c5faefe2)
 
-![Screenshot 2024-04-14 165921](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/96dc00da-9852-4acb-af82-b986d19780ed)
-![Screenshot 2024-04-14 165936](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/6b4f7bce-5b3c-4f8f-9149-49d9bd198f8e)
-![Screenshot 2024-04-14 165954](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/fe857551-21c6-4099-aa10-4aa51225319d)
-![Screenshot 2024-04-14 170008](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/730ae044-1c7f-4819-bdc6-941caca6aa3d)
+![Screenshot 2024-04-14 165936](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/f543c217-6d80-4f45-9334-f12f9bb7b032)
+
+![Screenshot 2024-04-14 165954](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/0b2bdda4-3760-47f4-acd4-3340ed1e1714)
+
+![Screenshot 2024-04-14 170008](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/8c7ffc83-2c17-416b-b50f-bd8c1b1ad7b6)
