@@ -11,7 +11,11 @@ capabilities and achievements.
 ## YOU CAN SELECT YOUR IMAGE IN JPG FORMATE ##
 
 ![Screenshot 2024-04-14 165936](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/f543c217-6d80-4f45-9334-f12f9bb7b032)
+## ADD YOUR RESUME PDF ##
 
 ![Screenshot 2024-04-14 165954](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/0b2bdda4-3760-47f4-acd4-3340ed1e1714)
 
 ![Screenshot 2024-04-14 170008](https://github.com/RAYUDUPALURI/personal-portfolio-website-Coderscave/assets/152466129/8c7ffc83-2c17-416b-b50f-bd8c1b1ad7b6)
+
+
+## THE END ##
